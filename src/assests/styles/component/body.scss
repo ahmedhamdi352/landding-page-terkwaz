@@ -1,0 +1,142 @@
+.body-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-continer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // margin-top: 50px;
+}
+.text-continer{
+    width: 485px;
+}
+.text-bold{
+    font-family: 'BoldFont';
+    font-size: 30px;
+    color: hsl(229, 31%, 21%);
+    
+}
+.text-normal {
+    font-size: 18px;
+    font-family: 'myFont';
+    color: hsl(229, 8%, 60%);
+}
+.image{
+    max-width: 440px;
+
+}
+.btn-chrome{
+    margin: 0 10px;
+    padding: 12px 18px;
+    border-radius: 3px;
+    background-color: hsl(231, 69%, 60%);
+    color: #ffff;
+    font-family: "myfont";
+}
+.btn-chrome:hover{
+   
+    border:solid 1px hsl(231, 69%, 60%);
+    background-color: #ffff;
+    color: hsl(231, 69%, 60%);
+
+}
+.btn-firefox{
+    margin: 0 10px;
+    padding: 12px 18px;
+    border-radius: 3px;
+    background-color: #fa5757;
+    color: #252b46;
+    font-family: "myfont";
+    box-shadow: 0 3px 6px  rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+.btn-firefox:hover{
+    border:solid 1px#252b46;
+    background-color: #ffff;
+    color: #252b46;
+}
+.text-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 40px;
+}
+.text-features{
+    font-size: 18px;
+    font-family: 'myFont';
+    color: #9194a1;
+    text-align: center;
+}
+.continer-extenstions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.extention{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.extenstion-logo{
+    max-width: 150px;
+}
+.extention-bold{
+    font-family: 'BoldFont';
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.text-extention{
+    font-size: 18px;
+    font-family: 'myFont';
+    color: #9194a1;
+    text-align: center;
+    margin: 0 0 10px 0; 
+}
+
+.ant-collapse{
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 18px;
+    line-height: 1.5715;
+    list-style: none;
+     background-color: #ffff !important; 
+     border: 0 !important;
+    /* border-bottom: 0; */
+    /* border-radius: 2px; */
+    /* padding: 50px; */
+    width: 50%;
+}
+.ant-collapse-header{
+    color:rgba(0, 0, 0, 0.85) !important;
+    font-family: 'BoldFont';
+}
+.ant-collapse-header:hover{
+    color: hsl(0, 94%, 66%) !important;
+}
+.ant-collapse-content-box{
+    color:   hsl(229, 8%, 60%);
+    font-family: 'myFont';
+}
+
+
+.rotate {
+    font-size: 30px;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}

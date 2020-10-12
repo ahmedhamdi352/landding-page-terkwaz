@@ -1,0 +1,23 @@
+
+.ant-tabs-tab{
+    color: hsl(229, 8%, 60%);
+}
+
+.ant-tabs-tab:hover{
+    color:hsl(0, 94%, 66%);
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color:hsl(229, 31%, 21%);
+
+}
+.ant-tabs-ink-bar{
+    background:hsl(0, 94%, 66%) !important;
+
+}
+.contnet-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

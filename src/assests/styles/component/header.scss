@@ -1,0 +1,47 @@
+.header-continer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 77px;
+
+}
+.logo{
+    // max-width: 100px;
+    width: 150px;
+}
+.nav-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 0 10px;
+    text-decoration: none;
+}
+.btn{
+    margin: 0 10px;
+    padding: 8px 18px;
+    border-radius: 3px;
+    background-color: hsl(0, 94%, 66%);
+    color: #ffff;
+    font-family: "myfont";
+}
+
+.btn:hover{
+    background-color: #ffff;
+    border: solid 1px hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%);
+
+}
+
+.nav-text{
+    font-family: 'myfont';
+    font-size: 18px;
+    color: hsl(229, 31%, 21%);
+    margin: 0;
+}
+
+.nav-text:hover{
+    color:  hsl(0, 94%, 66%);
+}
