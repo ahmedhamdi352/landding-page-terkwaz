@@ -5,7 +5,7 @@ const  TabBody = ()=> {
         return (
             <div className='body-content' style={{marginTop:'50px'}}>
 
-            <div className='body-continer'>
+            <div className='body-tab-continer'>
                <div className='image-feature-continer'>
                    <img src={pic} className='image-feature'/>
     

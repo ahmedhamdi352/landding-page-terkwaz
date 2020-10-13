@@ -13,6 +13,13 @@
     margin-top: 50px;
 }
 
+.body-tab-continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .btn-container{
     margin: 25px 0;
 }
@@ -197,7 +204,7 @@
 .image-feature{
     margin-left: 100px;
     margin-top: -65px;
-    width: 480px;
+    width: 380px;
     height: 380px;
 }
 .text-feature-continer{
@@ -209,6 +216,9 @@
  
     .body-continer{
        flex-direction: column-reverse;
+    }
+    .body-tab-continer{
+        flex-direction: column;
     }
     
     .text-continer{
@@ -243,7 +253,7 @@
         padding: 30px;
     }
     .text-feature-continer{
-        margin: 0 0 150px 0;
+        margin: 50px 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -251,6 +261,7 @@
     }
     .image-feature-continer{
         margin: 20px 20px;
+        margin-left: -50px
     }
    
 }
