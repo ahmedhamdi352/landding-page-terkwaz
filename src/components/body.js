@@ -22,7 +22,7 @@ import Footer from './footer'
            </div>
            </div>
 
-           <div>
+           <div className='image-body-continer'>
                <img src={pic} className='image'/>
 
            </div>

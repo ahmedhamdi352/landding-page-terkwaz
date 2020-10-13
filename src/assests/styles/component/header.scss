@@ -3,16 +3,19 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 77px;
+    width: 90%;
 
 }
 .logo{
     // max-width: 100px;
     width: 150px;
+    margin-right: 100px;
 }
 .nav-continer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
 }
 
 .nav-item{
