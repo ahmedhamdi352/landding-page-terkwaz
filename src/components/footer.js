@@ -49,7 +49,7 @@ export const Footer = () => {
             />
            {props.errors.email && <div id="feedback" className='error'>{props.errors.email}</div>}
            </div>
-           <button className='btn' type='submit '>More info</button>
+           <button className='btn-form' type='submit '>More info</button>
         </div>
 
           
