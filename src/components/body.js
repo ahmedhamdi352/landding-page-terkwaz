@@ -16,7 +16,7 @@ import Footer from './footer'
                <p className='text-normal'> A clean and simple interface to organize your favourite websites. 
                    Open a new browser tab and see your sites load instantly. Try it for free.
                </p>
-           <div>
+           <div className='btn-container'>
                <button className='btn-chrome'>Get it on Chrome</button>
                <button className= 'btn-firefox'>Get it on Firefox</button>
            </div>
@@ -45,21 +45,21 @@ import Footer from './footer'
         </div>
 
         <div className='continer-extenstions'>
-            <div className= 'extention' style={{marginBottom:'50px'}}>
+            <div className= 'extention-chrome' >
                 <img src={chrome} className='extenstion-logo'/>
                 <p className='extention-bold'>Add to Chrome</p>
                 <p className='text-extention'>Minimum Version 62</p>
                 <button className='btn-chrome'>Add & Install Extension</button>
             </div>
 
-            <div className= 'extention' style={{marginTop:'50px'}}>
+            <div className= 'extention-firefox' >
             <img src={firefox} className='extenstion-logo'/>
                 <p className='extention-bold'>Add to Firefox</p>
                 <p className='text-extention'>Minimum Version 55</p>
                 <button className='btn-chrome'>Add & Install Extension</button>
             </div>
 
-            <div className= 'extention' style={{marginTop:'100px'}}>
+            <div className= 'extention-opera' >
             <img src={opera} className='extenstion-logo'/>
                 <p className='extention-bold'>Add to Opera</p>
                 <p className='text-extention'>Minimum Version 64</p>

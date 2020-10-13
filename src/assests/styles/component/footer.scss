@@ -1,7 +1,7 @@
 .footer-conteiner{
     margin: 50px 0;
     background-color: #5368df;
-    width: 85%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,12 @@
     outline: none;
     width: 250px;
     border-radius: 5px;
+}
+.input-footer-error{
+    border: solid 1px hsl(0, 94%, 66%);
+    outline: none;
+    width: 250px;
+    border-radius: 5px 5px 0 0;
 }
 
 .btn-confirm{
@@ -52,7 +58,7 @@
 .footer-item-text {
     font-family: 'myfont';
     font-size: 18px;
-    color: #252b46;
+    color: #ffff;
     margin: 0;
 }
 .footer-item-text:hover{
@@ -64,4 +70,39 @@
 }
 .icon-footer:hover{
     background-color:  hsl(0, 94%, 66%);
+}
+.icon-continer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.input-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-continer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error{
+    color: #ffff;
+    background-color: #fa5757;
+    width: 250px;
+    border-radius: 0px 0 5px 5px;
+}
+
+.title-footer{
+    font-family: 'myFont';
+    font-size: 18px;
+    color: #ffff;
+}
+
+.sub-title-footer{
+    font-family: 'BoldFont';
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffff;
 }
