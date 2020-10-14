@@ -9,9 +9,6 @@ import tapBookmark from '../assests/images/illustration-features-tab-1.svg'
 
 const { TabPane } = Tabs;
 
-function callback(key) {
-  console.log(key);
-}
 
 const Paragraphes ={
   tapBookmark :{
@@ -28,8 +25,8 @@ const Paragraphes ={
   }
 }
 
-const Demo = () => (
-  <Tabs defaultActiveKey="1" onChange={callback} className='contnet-flex'>
+const TapsComponent = () => (
+  <Tabs defaultActiveKey="1"  className='contnet-flex'>
     <TabPane tab="Simple Bookmarking" key="1" >
         <TapBody image={tapBookmark} Paragraph ={Paragraphes.tapBookmark}/>
     </TabPane>
@@ -42,4 +39,4 @@ const Demo = () => (
   </Tabs>
 );
 
-export default Demo;
+export default TapsComponent;
