@@ -85,7 +85,7 @@ export const Header = () => {
              exact>
              <p className='nav-menu-text'> CONTACT</p>
              </NavLink>
-             <button className='btn-menu'>LOGIN</button>
+             <button className='btn'>LOGIN</button>
                   </div>
 
                   <div className='icon-continer' style={{marginTop:'65%'}}>
